@@ -11,9 +11,9 @@ namespace CSExercises
         public static void Main(string[] args)
         {
             Console.WriteLine("Enter the number");
-            string x = Console.ReadLine();
-            double y = Convert.ToDouble(x);
-            Console.WriteLine("Squareroot of the number is {1}", Math.Sqrt(y));
+            double x = Convert.ToDouble(Console.ReadLine());
+            //Console.WriteLine(x);
+            Console.WriteLine("Square root of the number is {0}", Math.Sqrt(x));
         }
     }
 }
