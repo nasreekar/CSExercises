@@ -11,9 +11,8 @@ namespace CSExercises
         public static void Main(string[] args)
         {
             Console.WriteLine("Enter the number which you want to be squared");
-            int x = Console.Read();
-            Console.WriteLine(x);
-           // Console.WriteLine("Square of the number is =", x );
+            int x = int.Parse(Console.ReadLine());
+            Console.WriteLine("Square of the number is = {0}", x*x );
         }
     }
 }
