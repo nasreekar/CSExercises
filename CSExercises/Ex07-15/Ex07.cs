@@ -10,7 +10,11 @@ namespace CSExercises
     {
         public static void Main(string[] args)
         {
-            
+            Console.WriteLine("Enter the salary");
+            double sal = Convert.ToDouble(Console.ReadLine());
+            double ha = 0.1 * sal;
+            double ta = 0.03 * sal;
+            Console.WriteLine("Total gross salary= {0}", sal + ta + ha);
         }
     }
 }
