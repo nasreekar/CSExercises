@@ -12,7 +12,7 @@ namespace CSExercises
         {
             Console.WriteLine("Enter the number");
             string x = Console.ReadLine();
-           //double y = Convert.ToDouble(x);
+            double y = Convert.ToDouble(x);
             Console.WriteLine("Squareroot of the number is {1}", Math.Sqrt(y));
         }
     }
