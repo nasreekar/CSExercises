@@ -10,7 +10,9 @@ namespace CSExercises
     {
         public static void Main(string[] args)
         {
-            
+            Console.WriteLine("Enter the decimal number");
+            double x = double.Parse(Console.ReadLine());
+            Console.WriteLine("Square of the number is {0:#.##}", x*x);
         }
     }
 }
