@@ -10,10 +10,8 @@ namespace CSExercises
     {
         public static void Main(string[] args)
         {
-            Console.WriteLine("Enter your name");
+            Console.WriteLine("Enter your name and gender(M/F)");
             string name = Console.ReadLine();
-
-            Console.WriteLine("Enter your gender");
             string gender = Console.ReadLine();
 
             if (gender == "M")
@@ -21,10 +19,13 @@ namespace CSExercises
                 Console.WriteLine("Good Morning Mr. {0}", name);
             }
 
-            else
+            else if (gender == "F")
             {
                 Console.WriteLine("Good morning Ms. {0}", name);
             }
+            else
+                Console.WriteLine("Enter a correct gender");
+
             Console.ReadLine();
         }
 
