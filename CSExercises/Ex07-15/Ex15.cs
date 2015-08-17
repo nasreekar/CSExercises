@@ -35,6 +35,7 @@ namespace CSExercises
                     {
                         Console.WriteLine("the number is not an armstrong number");
                         break;
+
                     }
                 }
             }
