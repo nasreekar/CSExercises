@@ -19,20 +19,32 @@ namespace CSExercises
 
             double tva = tv * 900;
             double dvda = dvd * 500;
-            double total = tva + dvda;
+            double mpa = mp * 700;
+            double total = tva + dvda+mpa;
 
             if (total > 5000 && total < 10000)
             {
-                total = total - (total * 0.1);
+                tva = tva - (tva * 0.1);
+                dvda = dvda - (dvda * 0.1);
+                total = dvda + tva + mpa;
+                Console.WriteLine("Total price for this order is ${0}", total);
+                Console.ReadLine();
             }
             else if (total > 10000)
             {
-                total = total - (total * 0.15);
+                tva = tva - (tva * 0.15);
+                dvda = dvda - (dvda * 0.15);
+                total = dvda + tva + mpa;
+                Console.WriteLine("Total price for this order is ${0}", total);
+                Console.ReadLine();
             }
 
-            double totalprice = total + (mp * 700);
-            Console.WriteLine("Total price for this order is ${0}", totalprice);
-            Console.ReadLine();
+            else
+            {
+                Console.WriteLine("Total price for this order is ${0}", total);
+                Console.ReadLine();
+            }
+            
         }
     }
 }
