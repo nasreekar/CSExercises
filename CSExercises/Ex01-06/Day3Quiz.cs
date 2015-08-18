@@ -21,8 +21,15 @@ namespace CSExercises
 
                 if(x!=pin)
                 {
-                    Console.WriteLine("Incorrect Pin. Please try again");
-                    counter = counter + 1;
+                    if(i ==3)
+                    {
+                        Console.WriteLine("Too Many Wrong PIN entries. Your account is locked");
+                    }
+                    else
+                    {
+                        Console.WriteLine("Incorrect Pin. Please try again");
+                        counter = counter + 1;
+                    }   
                 }
                 else
                 {
@@ -31,10 +38,6 @@ namespace CSExercises
                 }
             }
 
-            if (counter==3)
-            {
-                Console.WriteLine("Too Many Wrong PIN entries. Your account is locked");
-            }
             Console.Read();
         }
     }
