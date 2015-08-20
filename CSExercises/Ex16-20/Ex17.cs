@@ -10,13 +10,13 @@ namespace CSExercises
     {
         public static void Main(string[] args)
         {
-            Console.WriteLine("Enter your name");
+            Console.WriteLine("Enter your name,gender and age");
             string name = Console.ReadLine();
 
-            Console.WriteLine("Enter your gender(M/F)");
+            //Console.WriteLine("Enter your gender(M/F)");
             string gender = Console.ReadLine();
 
-            Console.WriteLine("Enter your age");
+            //Console.WriteLine("Enter your age");
             int age = Convert.ToInt32(Console.ReadLine());
 
             switch (gender)

@@ -22,7 +22,7 @@ namespace CSExercises
             else if (marks >= 0 && marks <= 40)
                 Console.WriteLine("you have scored {0} marks which is F grade", marks);
             else
-                Console.WriteLine("**ERROR**");
+                Console.WriteLine("**Error**");
 
             Console.ReadLine();
         }

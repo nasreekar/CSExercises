@@ -28,7 +28,7 @@ namespace CSExercises
                 totalfare = minc + ((km-5) * 0.04);
             }
                 
-            Console.WriteLine("Total fare of the trip is ${0:0.00}", totalfare);
+            Console.WriteLine("Total fare of the trip is {0:c}", totalfare);
             Console.ReadLine();
 
         }
