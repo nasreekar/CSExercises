@@ -13,7 +13,7 @@ namespace CSExercises
             Console.WriteLine("Enter the number x");
             int x = Convert.ToInt32(Console.ReadLine());
             int y = (2*(x * x)) - (4 * x) + 3;
-            Console.WriteLine("The value of y is {0}", y);
+            Console.WriteLine(y);
         }
     }
 }

@@ -15,7 +15,7 @@ namespace CSExercises
             double fcharge = 2.40;
             double fkm = 0.40;
             double totalFare =(fcharge + (d * fkm));
-            Console.WriteLine("Total fare of the trip is ${0:#.#0}", Math.Round(totalFare));
+            Console.WriteLine("Total fare of the trip is ${0:0.00}", Math.Round(totalFare));
         }
     }
 }

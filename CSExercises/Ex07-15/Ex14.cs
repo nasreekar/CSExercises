@@ -18,7 +18,7 @@ namespace CSExercises
 
             Double s = (a + b + c) / 2;
             Double Area = Math.Sqrt((s * (s - a) * (s - b) * (s - c)));
-            Console.WriteLine("the area of the triangle is {0:0.000}", Area);
+            Console.WriteLine("the area of the triangle is {0}", Area);
 
             Console.ReadLine();
         }

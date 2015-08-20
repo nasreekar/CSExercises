@@ -28,12 +28,12 @@ namespace CSExercises
 
                     if (sum == num)
                     {
-                        Console.WriteLine("the number {0} is an armstrong number", num);
+                        Console.WriteLine("Armstrong number");
                         break;
                     }
                     else
                     {
-                        Console.WriteLine("the number is not an armstrong number");
+                        Console.WriteLine("Not an Armstrong number");
                         break;
 
                     }

@@ -11,7 +11,7 @@ namespace CSExercises
         public static void Main(string[] args)
         {
             Console.WriteLine("Enter the centigrade temperature");
-            double C = Convert.ToDouble(Console.ReadLine());
+            int C = Convert.ToInt32(Console.ReadLine());
             double F = 1.8 * C + 32;
             Console.WriteLine("Fahrenheit temp is {0}", F);
         }
